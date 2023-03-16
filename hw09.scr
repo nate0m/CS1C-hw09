@@ -1,0 +1,58 @@
+Script started on 2023-03-15 19:04:30-07:00 [TERM="st-256color" TTY="/dev/pts/2" COLUMNS="115" LINES="50"]
+[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCraft:~/Documents/CS1C/src/hw09]1;..CS1C/src/hw09[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  hw09[00m [01;34m  git:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hddate[?1l>[?2004l
+]2;date]1;dateWed Mar 15 07:04:31 PM PDT 2023
+[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCraft:~/Documents/CS1C/src/hw09]1;..CS1C/src/hw09[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  hw09[00m [01;34m  git:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hlls -l[?1l>[?2004l
+]2;ls --color=tty -l]1;lstotal 40
+-rw-r--r-- 1 nate nate  178 Mar 14 16:00 circle.cpp
+-rw-r--r-- 1 nate nate  818 Mar 15 19:01 circle.h
+-rw-r--r-- 1 nate nate  877 Mar 15 18:47 hw09.cpp
+-rw-r--r-- 1 nate nate    0 Mar 15 19:04 hw09.scr
+-rw-r--r-- 1 nate nate  577 Mar 15 19:04 Makefile
+-rw-r--r-- 1 nate nate  273 Mar 14 15:59 rectangle.cpp
+-rw-r--r-- 1 nate nate  932 Mar 15 19:03 rectangle.h
+-rw-r--r-- 1 nate nate  318 Mar 15 18:54 shape.cpp
+-rw-r--r-- 1 nate nate 1666 Mar 15 18:54 shape.h
+-rw-r--r-- 1 nate nate  361 Mar 15 18:58 triangle.cpp
+-rw-r--r-- 1 nate nate 1193 Mar 15 18:58 triangle.h
+[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCraft:~/Documents/CS1C/src/hw09]1;..CS1C/src/hw09[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  hw09[00m [01;34m  git:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hmmake all[?1l>[?2004l
+]2;make all]1;makeg++ -c shape.cpp -o shape.o
+g++ -c circle.cpp -o circle.o
+g++ -c triangle.cpp -o triangle.o
+g++ -c rectangle.cpp -o rectangle.o
+g++ hw09.cpp -o hw09 shape.o circle.o triangle.o rectangle.o
+[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCraft:~/Documents/CS1C/src/hw09]1;..CS1C/src/hw09[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  hw09[00m [01;34m  git:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hlls -l[?1l>[?2004l
+]2;ls --color=tty -l]1;lstotal 88
+-rw-r--r-- 1 nate nate   178 Mar 14 16:00 circle.cpp
+-rw-r--r-- 1 nate nate   818 Mar 15 19:01 circle.h
+-rw-r--r-- 1 nate nate  6040 Mar 15 19:04 circle.o
+-rwxr-xr-x 1 nate nate 18592 Mar 15 19:04 [0m[01;32mhw09[0m
+-rw-r--r-- 1 nate nate   877 Mar 15 18:47 hw09.cpp
+-rw-r--r-- 1 nate nate     0 Mar 15 19:04 hw09.scr
+-rw-r--r-- 1 nate nate   577 Mar 15 19:04 Makefile
+-rw-r--r-- 1 nate nate   273 Mar 14 15:59 rectangle.cpp
+-rw-r--r-- 1 nate nate   932 Mar 15 19:03 rectangle.h
+-rw-r--r-- 1 nate nate  6184 Mar 15 19:04 rectangle.o
+-rw-r--r-- 1 nate nate   318 Mar 15 18:54 shape.cpp
+-rw-r--r-- 1 nate nate  1666 Mar 15 18:54 shape.h
+-rw-r--r-- 1 nate nate  3656 Mar 15 19:04 shape.o
+-rw-r--r-- 1 nate nate   361 Mar 15 18:58 triangle.cpp
+-rw-r--r-- 1 nate nate  1193 Mar 15 18:58 triangle.h
+-rw-r--r-- 1 nate nate  6752 Mar 15 19:04 triangle.o
+[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCraft:~/Documents/CS1C/src/hw09]1;..CS1C/src/hw09[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  hw09[00m [01;34m  git:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h../hw09[1m [0m[0m [?1l>[?2004l
+]2;./hw09]1;./hw09***********************************
+Programmed By: Nathan Milton
+Student Id   : 1204398
+Assignment   : HW09
+CS1C         : T/TH 1:30
+***********************************
+
+TRIANGLE
+Perimeter: 12
+Area: 77.7689
+
+RECTANGLE
+Perimeter: 12
+Area: 8
+[1m[7m%[27m[1m[0m                                                                                                                   ]2;nate@archCraft:~/Documents/CS1C/src/hw09]1;..CS1C/src/hw09[0m[27m[24m[J[01;31m[01;32m[01;33m [36m  hw09[00m [01;34m  git:([31mmain[34m) [33m✗[00m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on 2023-03-15 19:05:45-07:00 [COMMAND_EXIT_CODE="0"]

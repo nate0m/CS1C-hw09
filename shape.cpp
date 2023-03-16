@@ -8,5 +8,9 @@ void printArea(const Shape& s) {
 
     std::cout << "Area: " << s.calcArea() << std::endl;
 }
+void Shape::print() const {
 
+    std::cout << x << std::endl;
+    std::cout << y << std::endl;
+}
 

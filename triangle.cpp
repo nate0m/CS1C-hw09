@@ -9,3 +9,9 @@ void Triangle::updateDimensions() {
     std::cout << "Input Hypotenuse: ";
     std::cin >> c;
 }
+void Triangle::print() const {
+
+    std::cout << a << std::endl;
+    std::cout << b << std::endl;
+    std::cout << c << std::endl;
+}
